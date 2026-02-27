@@ -9,12 +9,12 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Project Template 01",
+    title: "3D Portfolio",
     summary:
-      "Short summary of your project goes here. Highlight the core problem and what you built.",
-    tech: ["Next.js", "TypeScript", "Tailwind"],
-    liveUrl: "https://example.com",
-    repoUrl: "https://github.com/yourusername/project-template-01",
+      "An immersive portfolio experience with a 3D presentation of projects and personal brand.",
+    tech: ["React", "Vite", "WebGL"],
+    liveUrl: "https://steg-portfolio.netlify.app/",
+    repoUrl: "https://github.com/Nicsteg",
     featured: true,
   },
   {
