@@ -18,12 +18,12 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    title: "Project Template 02",
+    title: "WHV Jobs Board",
     summary:
-      "Short summary of your project goes here. Mention key features and user impact.",
-    tech: ["React", "Node.js", "PostgreSQL"],
-    liveUrl: "https://example.com",
-    repoUrl: "https://github.com/yourusername/project-template-02",
+      "A job posting platform built specifically for working holiday visa travelers to find and post WHV-friendly roles.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "LocalStorage"],
+    liveUrl: "https://your-whv-jobs-url.vercel.app",
+    repoUrl: "https://github.com/Nicsteg",
     featured: true,
   },
   {
