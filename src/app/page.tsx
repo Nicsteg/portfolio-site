@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Script from "next/script";
 import { projects } from "@/data/projects";
 
 const featuredProjects = projects.filter((project) => project.featured);
@@ -194,21 +193,6 @@ export default function Home() {
         </section>
       </main>
 
-      <section className="mx-auto w-full max-w-6xl px-6 pb-10 md:px-10">
-        <div className="mx-auto max-w-[220px] overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] p-3">
-          <div
-            className="tenor-gif-embed"
-            data-postid="13043798271220344810"
-            data-share-method="host"
-            data-aspect-ratio="1.125"
-            data-width="100%"
-          >
-            <a href="https://tenor.com/view/cat-gif-13043798271220344810">Cat Sticker</a>
-            from <a href="https://tenor.com/search/cat-stickers">Cat Stickers</a>
-          </div>
-        </div>
-      </section>
-
       <footer className="border-t border-white/10 py-8">
         <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 text-xs text-white/50 md:px-10">
           <p>© {new Date().getFullYear()} Nicolas Steger. All rights reserved.</p>
@@ -218,7 +202,6 @@ export default function Home() {
         </div>
       </footer>
 
-      <Script src="https://tenor.com/embed.js" strategy="lazyOnload" />
     </div>
   );
 }
