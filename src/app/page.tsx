@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { projects } from "@/data/projects";
 
 const featuredProjects = projects.filter((project) => project.featured);
@@ -81,28 +82,43 @@ export default function Home() {
 
       <main id="top" className="mx-auto w-full max-w-6xl px-6 pb-20 md:px-10">
         <section className="pt-16 md:pt-24">
-          <p className="text-sm uppercase tracking-[0.22em] text-white/50">Software Developer</p>
-          <h1 className="mt-6 max-w-4xl text-4xl font-semibold leading-tight tracking-tight text-white md:text-6xl">
-            I build modern apps and polished digital products.
-          </h1>
-          <p className="mt-6 max-w-2xl text-base leading-7 text-white/70 md:text-lg">
-            I&apos;m Nicolas Steger, a developer focused on clean UI, strong performance, and
-            practical solutions. Here are a few projects I&apos;ve built.
-          </p>
+          <div className="flex items-start justify-between gap-8">
+            <div>
+              <p className="text-sm uppercase tracking-[0.22em] text-white/50">Software Developer</p>
+              <h1 className="mt-6 max-w-4xl text-4xl font-semibold leading-tight tracking-tight text-white md:text-6xl">
+                I build modern apps and polished digital products.
+              </h1>
+              <p className="mt-6 max-w-2xl text-base leading-7 text-white/70 md:text-lg">
+                I&apos;m Nicolas Steger, a developer focused on clean UI, strong performance, and
+                practical solutions. Here are a few projects I&apos;ve built.
+              </p>
 
-          <div className="mt-8 flex flex-wrap gap-3">
-            <a
-              href="#projects"
-              className="rounded-full bg-white px-5 py-3 text-sm font-semibold text-black transition hover:bg-white/90"
-            >
-              View Projects
-            </a>
-            <a
-              href="mailto:nicksteger@live.com"
-              className="rounded-full border border-white/25 px-5 py-3 text-sm font-semibold text-white transition hover:border-white/60"
-            >
-              Contact Me
-            </a>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <a
+                  href="#projects"
+                  className="rounded-full bg-white px-5 py-3 text-sm font-semibold text-black transition hover:bg-white/90"
+                >
+                  View Projects
+                </a>
+                <a
+                  href="mailto:nicksteger@live.com"
+                  className="rounded-full border border-white/25 px-5 py-3 text-sm font-semibold text-white transition hover:border-white/60"
+                >
+                  Contact Me
+                </a>
+              </div>
+            </div>
+
+            <div className="profile-emblem hidden md:block" aria-hidden="true">
+              <Image
+                src="/images/profile.jpg"
+                alt="Nicolas Steger"
+                width={120}
+                height={120}
+                className="profile-emblem-image"
+                priority
+              />
+            </div>
           </div>
         </section>
 
