@@ -86,8 +86,8 @@ export default function Home() {
             I build modern apps and polished digital products.
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-7 text-white/70 md:text-lg">
-            I&apos;m Nicolas Steger — a developer focused on clean UI, strong performance, and
-            practical solutions. This is a curated selection of projects I&apos;ve built.
+            I&apos;m Nicolas Steger, a developer focused on clean UI, strong performance, and
+            practical solutions. Here are a few projects I&apos;ve built.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
