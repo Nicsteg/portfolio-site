@@ -22,7 +22,7 @@ export const projects: Project[] = [
     summary:
       "A job posting platform built specifically for working holiday visa travelers to find and post WHV-friendly roles.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "LocalStorage"],
-    liveUrl: "https://your-whv-jobs-url.vercel.app",
+    liveUrl: "https://whv-jobs-one.vercel.app/",
     repoUrl: "https://github.com/Nicsteg",
     featured: true,
   },
