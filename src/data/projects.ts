@@ -27,12 +27,12 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    title: "Project Template 03",
+    title: "Food Bank Filter (RuneLite Plugin)",
     summary:
-      "Short summary of your project goes here. Keep it concise and results-focused.",
-    tech: ["Next.js", "Prisma", "Vercel"],
-    liveUrl: "https://example.com",
-    repoUrl: "https://github.com/yourusername/project-template-03",
+      "A custom RuneLite plugin that adds a bank-side panel to filter food items, compact matches into visible slots, and sort by GE price or healing value.",
+    tech: ["Java", "RuneLite API", "Gradle"],
+    liveUrl: "https://github.com/Nicsteg/food-bank-filter-plugin",
+    repoUrl: "https://github.com/Nicsteg/food-bank-filter-plugin",
     featured: true,
   },
   {
