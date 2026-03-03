@@ -36,12 +36,12 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    title: "Project Template 04",
+    title: "Japanese Student App",
     summary:
-      "Use this card for another project. Add the stack and links when ready.",
-    tech: ["React", "Express", "MongoDB"],
-    liveUrl: "https://example.com",
-    repoUrl: "https://github.com/yourusername/project-template-04",
+      "A Japanese translation practice app that generates English prompts and grades Japanese answers with AI feedback.",
+    tech: ["Next.js", "TypeScript", "OpenAI API", "Wanakana"],
+    liveUrl: "https://github.com/Nicsteg/my-japanese-student-next",
+    repoUrl: "https://github.com/Nicsteg/my-japanese-student-next",
   },
   {
     title: "Project Template 05",
