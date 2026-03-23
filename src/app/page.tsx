@@ -9,15 +9,28 @@ function ProjectCard({
   tech,
   liveUrl,
   repoUrl,
+  imageUrl,
 }: {
   title: string;
   summary: string;
   tech: string[];
   liveUrl: string;
   repoUrl: string;
+  imageUrl?: string;
 }) {
   return (
-    <article className="group rounded-2xl border border-white/10 bg-white/[0.02] p-6 transition duration-300 hover:-translate-y-1 hover:border-white/25 hover:bg-white/[0.04]">
+    <article className="group overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] p-6 transition duration-300 hover:-translate-y-1 hover:border-white/25 hover:bg-white/[0.04]">
+      {imageUrl ? (
+        <div className="relative mb-5 aspect-[16/9] overflow-hidden rounded-xl border border-white/10 bg-white/5">
+          <Image
+            src={imageUrl}
+            alt={`${title} preview`}
+            fill
+            className="object-cover transition duration-300 group-hover:scale-[1.02]"
+          />
+        </div>
+      ) : null}
+
       <h3 className="text-xl font-semibold tracking-tight text-white">{title}</h3>
       <p className="mt-3 text-sm leading-6 text-white/70">{summary}</p>
 

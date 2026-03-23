@@ -1,0 +1,10 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" rx="32" fill="#0B1120"/>
+  <circle cx="900" cy="170" r="120" fill="#7C3AED" fill-opacity="0.25"/>
+  <circle cx="980" cy="280" r="180" fill="#06B6D4" fill-opacity="0.18"/>
+  <circle cx="340" cy="300" r="170" fill="#1D4ED8" fill-opacity="0.22"/>
+  <rect x="95" y="90" width="1010" height="495" rx="30" fill="#111827" stroke="#A855F7" stroke-opacity="0.4"/>
+  <path d="M300 420C360 300 500 270 600 340C720 430 810 410 900 290" stroke="#E879F9" stroke-width="18" stroke-linecap="round"/>
+  <text x="120" y="505" fill="#F8FAFC" font-size="58" font-family="Arial, sans-serif" font-weight="700">3D Portfolio</text>
+  <text x="120" y="557" fill="#CBD5E1" font-size="28" font-family="Arial, sans-serif">Interactive React Three Fiber developer portfolio</text>
+</svg>

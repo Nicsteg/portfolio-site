@@ -4,6 +4,7 @@ export type Project = {
   tech: string[];
   liveUrl: string;
   repoUrl: string;
+  imageUrl?: string;
   featured?: boolean;
 };
 
@@ -15,6 +16,7 @@ export const projects: Project[] = [
     tech: ["React", "Vite", "WebGL"],
     liveUrl: "https://steg-portfolio.netlify.app/",
     repoUrl: "https://github.com/Nicsteg",
+    imageUrl: "/images/projects/portfolio-3d.svg",
     featured: true,
   },
   {
@@ -24,6 +26,7 @@ export const projects: Project[] = [
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "LocalStorage"],
     liveUrl: "https://whv-jobs-one.vercel.app/",
     repoUrl: "https://github.com/Nicsteg",
+    imageUrl: "/images/projects/whv-jobs.svg",
     featured: true,
   },
   {
@@ -33,6 +36,7 @@ export const projects: Project[] = [
     tech: ["Java", "RuneLite API", "Gradle"],
     liveUrl: "https://github.com/Nicsteg/food-bank-filter-plugin",
     repoUrl: "https://github.com/Nicsteg/food-bank-filter-plugin",
+    imageUrl: "/images/projects/food-bank-filter.svg",
     featured: true,
   },
   {
@@ -42,14 +46,16 @@ export const projects: Project[] = [
     tech: ["Next.js", "TypeScript", "OpenAI API", "Wanakana"],
     liveUrl: "https://github.com/Nicsteg/my-japanese-student-next",
     repoUrl: "https://github.com/Nicsteg/my-japanese-student-next",
+    imageUrl: "/images/projects/japanese-student.svg",
   },
   {
-    title: "Project Template 05",
+    title: "Voluntree Personal",
     summary:
-      "Use this card for another project. Briefly explain what makes it valuable.",
-    tech: ["Vue", "Firebase", "Tailwind"],
-    liveUrl: "https://example.com",
-    repoUrl: "https://github.com/yourusername/project-template-05",
+      "A personal continuation of a college team project for connecting volunteers with organizations and community events.",
+    tech: ["Meteor", "React", "MongoDB", "Bootstrap", "Leaflet"],
+    liveUrl: "https://team-octagon.github.io/",
+    repoUrl: "https://github.com/Nicsteg/voluntree-personal",
+    imageUrl: "/images/projects/voluntree.svg",
   },
   {
     title: "Project Template 06",

@@ -1,0 +1,10 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" rx="32" fill="#172554"/>
+  <rect x="70" y="70" width="1060" height="535" rx="28" fill="#1E1B4B" stroke="#F472B6" stroke-opacity="0.35"/>
+  <rect x="120" y="130" width="960" height="120" rx="24" fill="#312E81"/>
+  <rect x="120" y="285" width="450" height="220" rx="24" fill="#3730A3"/>
+  <rect x="600" y="285" width="480" height="100" rx="24" fill="#312E81"/>
+  <rect x="600" y="405" width="480" height="100" rx="24" fill="#312E81"/>
+  <text x="120" y="555" fill="#FDF2F8" font-size="56" font-family="Arial, sans-serif" font-weight="700">Japanese Student App</text>
+  <text x="120" y="605" fill="#E9D5FF" font-size="28" font-family="Arial, sans-serif">AI-assisted Japanese translation practice</text>
+</svg>

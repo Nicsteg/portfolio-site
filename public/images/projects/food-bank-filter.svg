@@ -1,0 +1,11 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" rx="32" fill="#111827"/>
+  <rect x="75" y="85" width="1050" height="505" rx="28" fill="#0F172A" stroke="#F59E0B" stroke-opacity="0.45"/>
+  <rect x="120" y="135" width="220" height="400" rx="24" fill="#1F2937"/>
+  <rect x="390" y="135" width="680" height="80" rx="20" fill="#1E293B"/>
+  <rect x="390" y="245" width="680" height="80" rx="20" fill="#1E293B"/>
+  <rect x="390" y="355" width="680" height="80" rx="20" fill="#1E293B"/>
+  <rect x="390" y="465" width="680" height="70" rx="20" fill="#1E293B"/>
+  <text x="120" y="505" fill="#FFF7ED" font-size="56" font-family="Arial, sans-serif" font-weight="700">Food Bank Filter</text>
+  <text x="120" y="556" fill="#FDBA74" font-size="28" font-family="Arial, sans-serif">RuneLite plugin for filtering and sorting food items</text>
+</svg>
