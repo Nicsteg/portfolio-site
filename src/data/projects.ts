@@ -30,6 +30,16 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    title: "MoveMap",
+    summary:
+      "A relocation planning app that helps users prepare an international move with destination-aware checklists, budget runway, and a readiness score.",
+    tech: ["React", "TypeScript", "Vite", "LocalStorage"],
+    liveUrl: "https://movemap-black.vercel.app",
+    repoUrl: "https://github.com/Nicsteg/movemap",
+    imageUrl: "/images/projects/movemap.svg",
+    featured: true,
+  },
+  {
     title: "Food Bank Filter (RuneLite Plugin)",
     summary:
       "A custom RuneLite plugin that adds a bank-side panel to filter food items, compact matches into visible slots, and sort by GE price or healing value.",
