@@ -58,11 +58,11 @@ export const projects: Project[] = [
     imageUrl: "/images/projects/voluntree-preview.png",
   },
   {
-    title: "Project Template 06",
+    title: "TheBox",
     summary:
-      "Use this card for another project. Include outcomes or measurable improvements.",
-    tech: ["Svelte", "Supabase", "TypeScript"],
-    liveUrl: "https://example.com",
-    repoUrl: "https://github.com/yourusername/project-template-06",
+      "A Unity 2D action/survival prototype featuring combat, harvesting, inventory management, crafting, and in-progress game systems.",
+    tech: ["Unity", "C#", "URP", "2D Game Dev"],
+    liveUrl: "https://github.com/Nicsteg/TheBox",
+    repoUrl: "https://github.com/Nicsteg/TheBox",
   },
 ];
