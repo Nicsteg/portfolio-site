@@ -55,7 +55,7 @@ export const projects: Project[] = [
     tech: ["Meteor", "React", "MongoDB", "Bootstrap", "Leaflet"],
     liveUrl: "https://team-octagon.github.io/",
     repoUrl: "https://github.com/Nicsteg/voluntree-personal",
-    imageUrl: "/images/projects/voluntree.svg",
+    imageUrl: "/images/projects/voluntree-preview.png",
   },
   {
     title: "Project Template 06",
