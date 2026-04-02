@@ -10,6 +10,15 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "KanjiSRS",
+    summary:
+      "An Android Japanese study app for kanji and vocabulary with offline Tanuki + JMdict data, dark mode, local progress saving, and a built-in spaced repetition review flow.",
+    tech: ["Kotlin", "Jetpack Compose", "Material 3", "Android"],
+    liveUrl: "https://github.com/Nicsteg/KanjiSRS",
+    repoUrl: "https://github.com/Nicsteg/KanjiSRS",
+    featured: true,
+  },
+  {
     title: "3D Portfolio",
     summary:
       "An immersive portfolio experience with a 3D presentation of projects and personal brand.",

@@ -18,6 +18,8 @@ function ProjectCard({
   repoUrl: string;
   imageUrl?: string;
 }) {
+  const liveLabel = liveUrl.includes("github.com") ? "Project Page" : "Live Site";
+
   return (
     <article className="group overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] p-6 transition duration-300 hover:-translate-y-1 hover:border-white/25 hover:bg-white/[0.04]">
       {imageUrl ? (
@@ -52,7 +54,7 @@ function ProjectCard({
           rel="noopener noreferrer"
           className="rounded-full bg-white px-4 py-2 font-medium text-black transition hover:bg-white/90"
         >
-          Live Site
+          {liveLabel}
         </a>
         <a
           href={repoUrl}
